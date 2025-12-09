@@ -101,7 +101,7 @@ img {
   text-align: center;
   padding: 2rem 1.75rem;
   background: #fff;
-  box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.3);
 }
 
 /* Navbar */
@@ -118,7 +118,7 @@ img {
 }
 
 .navbar.navbar-scroll {
-  background-color: rgba(235, 77, 85, 0.7);
+  background-color: rgba(235, 77, 85, 0.8);
   backdrop-filter: blur(10px);
 }
 
@@ -242,7 +242,7 @@ img {
 }
 
 .topic img:hover {
-  transform: scale(1.1);
+  transform: scale(1.15);
 }
 
 .topic h3 {
@@ -345,6 +345,9 @@ img {
 }
 
 @media (max-width: 768px) {
+    .main-menu-items {
+      display: none;
+    }
     .navbar .mobile-menu {
       display: block;
     }
